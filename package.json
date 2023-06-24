@@ -1,0 +1,31 @@
+{
+  "name": "didactic-engine",
+  "version": "1.0.0",
+  "description": "A restful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pratikshit26/didactic-engine.git"
+  },
+  "keywords": [
+    "REST",
+    "Nodejs",
+    "ExpressJs"
+  ],
+  "author": "Pratikshit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pratikshit26/didactic-engine/issues"
+  },
+  "homepage": "https://github.com/Pratikshit26/didactic-engine#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
